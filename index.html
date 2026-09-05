@@ -1,0 +1,640 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="Z_Flow is a simple productivity platform designed to help teams organize work, collaborate, and track progress."
+    >
+
+    <title>Z_Flow | Work Smarter. Flow Better.</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <header class="site-header">
+
+        <div class="container navbar">
+
+            <a
+                href="#home"
+                class="logo"
+                aria-label="Z_Flow Home"
+            >
+                Z_Flow
+            </a>
+
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="main-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+
+            <nav
+                id="main-navigation"
+                class="main-navigation"
+                aria-label="Main navigation"
+            >
+
+                <ul class="nav-links">
+
+                    <li>
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#features">
+                            Features
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#get-started">
+                            Get Started
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#counter">
+                            Counter
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================== MAIN CONTENT ==================== -->
+    <main>
+
+        <!-- ==================== HERO SECTION ==================== -->
+        <section
+            id="home"
+            class="hero"
+        >
+
+            <div class="container hero-content">
+
+                <p class="hero-label">
+                    Simple tools for productive teams
+                </p>
+
+
+                <h1>
+                    Work smarter.
+                    <span>Flow better.</span>
+                </h1>
+
+
+                <p class="hero-description">
+                    Z_Flow helps teams organize their work, collaborate
+                    efficiently, and keep every project moving forward.
+                </p>
+
+
+                <div class="hero-actions">
+
+                    <a
+                        href="#features"
+                        class="btn btn-primary"
+                    >
+                        Explore Features
+                    </a>
+
+
+                    <a
+                        href="#get-started"
+                        class="btn btn-secondary"
+                    >
+                        Get Started
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== FEATURES SECTION ==================== -->
+        <section
+            id="features"
+            class="features section"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        Features
+                    </p>
+
+
+                    <h2>
+                        Everything you need to stay organized
+                    </h2>
+
+
+                    <p>
+                        Z_Flow brings essential productivity tools together
+                        in one simple workspace.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-grid">
+
+                    <!-- Feature 01 -->
+                    <article class="feature-card">
+
+                        <div class="feature-number">
+                            01
+                        </div>
+
+
+                        <h3>
+                            Plan Clearly
+                        </h3>
+
+
+                        <p>
+                            Organize tasks and priorities so your team always
+                            knows what needs to be done next.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Feature 02 -->
+                    <article class="feature-card">
+
+                        <div class="feature-number">
+                            02
+                        </div>
+
+
+                        <h3>
+                            Work Together
+                        </h3>
+
+
+                        <p>
+                            Keep communication and collaboration simple while
+                            everyone works toward the same goals.
+                        </p>
+
+                    </article>
+
+
+                    <!-- Feature 03 -->
+                    <article class="feature-card">
+
+                        <div class="feature-number">
+                            03
+                        </div>
+
+
+                        <h3>
+                            Track Progress
+                        </h3>
+
+
+                        <p>
+                            Monitor project progress and understand how your
+                            work is moving from idea to completion.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================== Task 2: INTERACTIVE FORM ==================== -->
+        <section
+            id="get-started"
+            class="form-section section"
+        >
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="section-label">
+                        Get Started
+                    </p>
+
+
+                    <h2>
+                        Ready to get things moving?
+                    </h2>
+
+
+                    <p>
+                        Create your Z_Flow account and start organizing your
+                        work in a simpler way.
+                    </p>
+
+                </div>
+
+
+                <div class="form-wrapper">
+
+                    <form
+                        id="signup-form"
+                        novalidate
+                    >
+
+                        <!-- Name -->
+                        <div class="form-group">
+
+                            <label for="name">
+                                Full Name
+                            </label>
+
+
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                autocomplete="name"
+                            >
+
+
+                            <small
+                                class="error-message"
+                                id="name-error"
+                            ></small>
+
+                        </div>
+
+
+                        <!-- Email -->
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                            >
+
+
+                            <small
+                                class="error-message"
+                                id="email-error"
+                            ></small>
+
+                        </div>
+
+
+                        <!-- Phone -->
+                        <div class="form-group">
+
+                            <label for="phone">
+                                Phone Number
+                            </label>
+
+
+                            <input
+                                type="tel"
+                                id="phone"
+                                name="phone"
+                                placeholder="Enter your phone number"
+                                autocomplete="tel"
+                            >
+
+
+                            <small
+                                class="error-message"
+                                id="phone-error"
+                            ></small>
+
+                        </div>
+
+
+                        <!-- Password -->
+                        <div class="form-group">
+
+                            <label for="password">
+                                Password
+                            </label>
+
+
+                            <div class="password-wrapper">
+
+                                <input
+                                    type="password"
+                                    id="password"
+                                    name="password"
+                                    placeholder="Create a strong password"
+                                    autocomplete="new-password"
+                                    aria-describedby="password-hint password-strength password-error"
+                                >
+
+
+                                <button
+                                    type="button"
+                                    class="password-toggle"
+                                    id="password-toggle"
+                                    aria-label="Show password"
+                                >
+                                    Show
+                                </button>
+
+                            </div>
+
+
+                            <small
+                                class="password-hint"
+                                id="password-hint"
+                            >
+                                Use at least 8 characters with uppercase,
+                                lowercase, and a number.
+                            </small>
+
+
+                            <div
+                                class="password-strength"
+                                id="password-strength"
+                                aria-live="polite"
+                            ></div>
+
+
+                            <small
+                                class="error-message"
+                                id="password-error"
+                            ></small>
+
+                        </div>
+
+
+                        <!-- Submit -->
+                        <button
+                            type="submit"
+                            class="btn btn-primary form-submit"
+                        >
+                            Create My Account
+                        </button>
+
+
+                        <!-- Success Message -->
+                        <div
+                            id="success-message"
+                            class="success-message"
+                            role="status"
+                            aria-live="polite"
+                        ></div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+          <!-- ==================== TASK 3: COUNTER APPLICATION ==================== -->
+        <section
+            id="counter"
+            class="counter-section section"
+        >
+
+            <div class="container">
+
+                <div class="counter-container">
+
+                    <div class="counter-header">
+
+                        <p class="section-label">
+                            Task 03
+                        </p>
+
+
+                        <h2>
+                            Simple Counter
+                        </h2>
+
+
+                        <p>
+                            A small interactive counter built with vanilla
+                            JavaScript and basic DOM manipulation.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Counter Display -->
+                    <div
+                        class="counter-display"
+                        aria-live="polite"
+                        aria-atomic="true"
+                    >
+
+                        <span id="counterValue">
+                            0
+                        </span>
+
+                    </div>
+
+
+                    <!-- Counter Controls -->
+                    <div class="counter-controls">
+
+                        <button
+                            type="button"
+                            class="counter-btn"
+                            id="decrementBtn"
+                        >
+                            − Decrease
+                        </button>
+
+
+                        <button
+                            type="button"
+                            class="counter-btn"
+                            id="resetBtn"
+                        >
+                            Reset
+                        </button>
+
+
+                        <button
+                            type="button"
+                            class="counter-btn"
+                            id="incrementBtn"
+                        >
+                            + Increase
+                        </button>
+
+                    </div>
+
+
+                    <!-- Counter Status -->
+                    <p
+                        class="counter-status"
+                        id="counterStatus"
+                        aria-live="polite"
+                    >
+                        Counter is ready.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ==================== CTA SECTION ==================== -->
+        <section
+            id="contact"
+            class="cta"
+        >
+
+            <div class="container cta-content">
+
+                <div>
+
+                    <p class="section-label">
+                        Start today
+                    </p>
+
+
+                    <h2>
+                        Make your workflow simpler.
+                    </h2>
+
+
+                    <p>
+                        Bring your tasks, ideas, and projects into one
+                        focused workspace.
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="#get-started"
+                    class="btn btn-primary"
+                >
+                    Get Started
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <p>
+                &copy;
+                <span id="current-year"></span>
+                Z_Flow.
+                All rights reserved.
+            </p>
+
+
+            <nav aria-label="Footer navigation">
+
+                <ul class="footer-links">
+
+                    <li>
+                        <a href="#home">
+                            Home
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#features">
+                            Features
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#get-started">
+                            Get Started
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#counter">
+                           Counter
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
+```
